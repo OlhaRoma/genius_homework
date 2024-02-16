@@ -1,0 +1,165 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+}
+
+:root {
+    --primary-white: #FFFFFF;
+    --primary-light-blue: #2B7FFF;
+    --primary-dark-blue: #011C44;
+    --secondary-dark-grey: #4A4A4A;
+    --secondary-light-grey: #747272;
+    --secondary-dark-blue: #011F4A;
+    --secondary-yellow: #FFD02B;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    color: var(--primary-dark-blue);
+    font-family: 'Roboto', sans-serif;
+}
+/*Button*/
+.button {
+    color: var(--primary-white);
+    background-color: var(--primary-light-blue);
+    border: 2px solid var(--primary-light-blue);
+    border-radius: 32px;
+}
+.button:hover {
+    color: var(--primary-dark-blue);
+    background-color: transparent;
+}
+
+/*Header*/
+header .link {
+    color: var(--primary-dark-blue);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.17;
+    text-decoration: none;
+}
+header .link:hover {
+    color: var(--primary-light-blue);
+    font-weight: 700;
+}
+/*Hero*/
+.hero-title {
+    color: var(--primary-light-blue);
+    font-size: 140px;
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+}
+.hero-section h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+.hero-section p {
+    color: var(--secondary-dark-grey);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.section-title{
+    color: var(--primary-dark-blue);
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.157;
+}
+.section-title .accent {
+    color: var(--primary-light-blue);
+}
+/*About us section*/
+.about-us-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.73;
+}
+.about-us-text .accent {
+    font-weight: 600;
+}
+/*Advantages section*/
+.advantages-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.333;
+    text-align: center;
+}
+/*Services section*/
+.service-title {
+    color: var(--primary-white);
+    background-color: var(--secondary-dark-blue); /*Clean later*/
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.18;
+    text-align: center;
+}
+/*Contacts section*/
+.contacts-title{
+    color: var(--primary-white);
+    background-color: var(--secondary-dark-blue); /*Clean later*/
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.18;
+}
+.contacts-title .accent {
+    color: var(--primary-light-blue);
+}
+.contacts-section p {
+    color: var(--secondary-light-grey);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+/*Footer*/
+footer .link {
+    color: var(--primary-white);
+    background-color: var(--secondary-dark-blue); /*Clean later*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.17;
+    text-decoration: none;
+}
+footer .link:hover {
+    color: var(--primary-light-blue);
+    font-weight: 700;
+}
+.address-copyright {
+    color: var(--secondary-light-grey);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.17;
+}
